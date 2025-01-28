@@ -113,8 +113,8 @@ async def run_async_clients():
     except:
         pass
     try:
-        await app.join_chat("MASTIWITHFRIENDSXD")
-        await app.join_chat("SHIVANSH474")
+        await app.join_chat("MEETUP_ZONE")
+        await app.join_chat("UR_KARMA_BABY")
     except:
         pass
     if SESSION_STRING:
@@ -126,8 +126,8 @@ async def run_async_clients():
         except:
             pass
         try:
-            await app.join_chat("MASTIWITHFRIENDSXD")
-            await app.join_chat("SHIVANSH474")
+            await app.join_chat("MEETUP_ZONE")
+            await app.join_chat("UR_KARMA_BABY")
         except:
             pass
     LOGGER.info("Starting Helper Robot ...")
