@@ -9,7 +9,7 @@ from ... import app, SUDO_USER
 def text_to_speech(client, message):
     text = message.text.split(' ', 1)[2]
     tts = gTTS(text=text, lang='hi')
-    tts.save('sʜᴜᴋʟᴀ ᴀᴜᴅɪᴏ.mp3')
+    tts.save('KRISHNA.mp3')
     client.send_audio(message.chat.id, 'sʜᴜᴋʟᴀ ᴀᴜᴅɪᴏ.mp3')
   
 
