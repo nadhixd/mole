@@ -1,6 +1,6 @@
 # Powered By // @SHIVANSH474 //
 
-__NAME__ = "Sʜᴜᴋʟᴀ"
+__NAME__ = "dev"
 __MENU__ = """
- **@SHIVANSH474**
+ **@ur_karma_baby**
 """
