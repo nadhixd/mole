@@ -68,7 +68,7 @@ def inline_wrapper(func):
                     [
                         InlineKeyboardButton(
                             "💥 Deploy Shukla Userbot ✨",
-                            url=f"https://t.me/ur_karma_baby
+                            url=f"https://t.me/ur_karma_baby"
                         )
                     ]
                 ]
