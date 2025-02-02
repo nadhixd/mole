@@ -18,7 +18,7 @@ async def help_menu_logo(answer):
             photo_url=f"{thumb_image}",
             title="💫 ʜᴇʟᴘ ᴍᴇɴᴜ  ✨",
             thumb_url=f"{thumb_image}",
-            description=f"🥀 Open Help Menu Of SHUKLAUSERBOT ✨...",
+            description=f"🥀 Open Help Menu Of ᴜsᴇʀʙᴏᴛ ✨...",
             caption=f"""
             **💫 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏᴘ.
 sʜᴜᴋʟᴀ ᴜsᴇʀʙᴏᴛ  » {__version__} ✨
@@ -26,7 +26,7 @@ sʜᴜᴋʟᴀ ᴜsᴇʀʙᴏᴛ  » {__version__} ✨
 ❤️ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ
 ɢᴇᴛ ᴜsᴇʀʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs ❤️
  
-🌹ᴘᴏᴡᴇʀᴇᴅ ʙʏ ♡  [  ᴜᴘᴅᴀᴛᴇ ](https://t.me/SHIVANSH474) 🌹**""",
+🌹ᴘᴏᴡᴇʀᴇᴅ ʙʏ ♡  [  ᴜᴘᴅᴀᴛᴇ ](https://t.me/ur_karma_baby) 🌹**""",
             reply_markup=InlineKeyboardMarkup(button),
         )
     )
@@ -41,12 +41,12 @@ async def help_menu_text(answer):
             title="💫 ʜᴇʟᴘ ᴍᴇɴᴜ  ✨",
             input_message_content=InputTextMessageContent(f"""
             **💫 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏᴘ.
-sʜᴜᴋʟᴀ ᴜsᴇʀʙᴏᴛ  » {__version__} ✨
+ ᴜsᴇʀʙᴏᴛ  » {__version__} ✨
  
 ❤️ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ
 ɢᴇᴛ ᴜsᴇʀʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs ❤️
  
-🌹ᴘᴏᴡᴇʀᴇᴅ ʙʏ ♡  [ ᴜᴘᴅᴀᴛᴇ ](https://t.me/SHIVANSH474) 🌹**""",
+🌹ᴘᴏᴡᴇʀᴇᴅ ʙʏ ♡  [ ᴜᴘᴅᴀᴛᴇ ](https://t.me/ur_karma_baby) 🌹**""",
             disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(button),
