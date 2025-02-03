@@ -1,12 +1,12 @@
-import yt_dlp as ytdl
-from pyrogram import Client, filters
-from pytgcalls import PyTgCalls
+from asyncio.queues import QueueEmpty
+from pyrogram import filters
 from pytgcalls.exceptions import GroupCallNotFound
+
+from ... import *
 from ...modules.mongo.streams import *
 from ...modules.utilities import queues
-from pytgcalls.types import GroupCall
 
-from ... import bot, app, call
+
 
 # Define the get_result function with cookies path
 async def get_result(query, cookies_path):
