@@ -9,7 +9,7 @@ from ...modules.helpers.wrapper import sudo_users_only
 from ...modules.mongo.streams import get_chat_id
 from ...modules.utilities import queues
 from ...modules.utilities.streams import run_stream
-from ...modules.utilities.calls import call  # Ensure call is correctly imported
+
 
 @app.on_message(cdx(["skp", "skip"]) & ~filters.private)
 @sudo_users_only
