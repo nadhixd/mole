@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pytgcalls import PyTgCalls
-from pytgcalls.types import AudioPiped
+from pytgcalls.types.input_stream import AudioPiped
 from ...modules.helpers.wrapper import *
 from ...modules.mongo.streams import *
 from ...modules.utilities import queues
