@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pytgcalls import PyTgCalls
-
+from ... import app, eor, cdx, cdz
 from ...modules.helpers.wrapper import *
 from ...modules.mongo.streams import *
 from ...modules.utilities import queues
